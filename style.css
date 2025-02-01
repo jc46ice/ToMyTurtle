@@ -37,6 +37,10 @@ header span {
     color: #fff;
 }
 
+header .hidemenu span {
+    color: dodgerblue;
+}
+
 .menucontrols {
     float: right;
 }
@@ -70,7 +74,7 @@ nav {
     top: 0;
     background: #fff;
     z-index: 99;
-    width: 25vw;
+    width: 35vw;
     height: 100%;
     padding: 5vw 5vw 5vw 5vw;
     overflow-y: auto;
@@ -85,7 +89,7 @@ nav.active {
 }
 
 nav ul li {
-    font-size: 1.2vw;
+    font-size: 5vw;
     margin-bottom: 2vw;
 }
 

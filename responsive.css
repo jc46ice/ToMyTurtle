@@ -39,12 +39,22 @@
     .container {
         max-width: 640px;
     }
+
+    nav ul li {
+        font-size: 2vw;
+        margin-bottom: 2vw;
+    }
 }
 
 /* for medium */
 @media (min-width: 768px) {
     .container {
         max-width: 768px;
+    }
+
+    nav ul li {
+        font-size: 2vw;
+        margin-bottom: 2vw;
     }
 }
 
@@ -126,6 +136,11 @@
         border-radius: 3px;
         color: #000;
         font-size: 1.2vw;
+    }
+
+    nav ul li {
+        font-size: 1.2vw;
+        margin-bottom: 2vw;
     }
 
     .about {
@@ -223,6 +238,11 @@
     header span {
         font-size: 2vw;
         color: #fff;
+    }
+
+    nav ul li {
+        font-size: 1.2vw;
+        margin-bottom: 2vw;
     }
 
     .hero {
@@ -360,6 +380,11 @@
     header span {
         font-size: 2vw;
         color: #fff;
+    }
+
+    nav ul li {
+        font-size: 1.2vw;
+        margin-bottom: 2vw;
     }
 
     .hero {
