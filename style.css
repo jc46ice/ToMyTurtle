@@ -98,6 +98,8 @@ nav ul li.active a {
 
 
 .hero {
+    height: 100%;
+    width: auto;
     background: url(images/pic1.jpg) no-repeat center;
     background-size: cover !important;
     padding-top: 20vw;
