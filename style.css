@@ -1,4 +1,4 @@
-.header {
+header {
     position: fixed;
     width: 100%;
     left: 0;
@@ -11,13 +11,12 @@
     -webkit-transition: 0.3s;
 }
 
-.header.fixed {
-    background: pink;
-    color: #ff304f;
-    padding: 0.7vw 0;
+header.fixed {
+    background: dodgerblue;
+    padding: 2vw 0;
 }
 
-.header a.myTitle {
+header a.myTitle {
     float: left;
     color: #fff;
     font-size: 6vw;
@@ -25,11 +24,15 @@
     -webkit-transition: 0.3s;
 }
 
-.header.fixed a.myTitle {
+header.fixed a.myTitle {
     font-size: 6vw;
 }
 
-.header span {
+header.fixed span {
+    color: yellow;
+}
+
+header span {
     font-size: 6vw;
     color: #fff;
 }
@@ -172,7 +175,8 @@ nav ul li a:hover {
 
 
 .about {
-    padding: 6vw 0;
+    height: 100vh;
+    padding: 30vw 0;
     font-family: 'Manrope', sans-serif;
     background: #ddd;
 }
@@ -185,12 +189,12 @@ nav ul li a:hover {
 
 .about .text h2 {
     color: #000;
-    font-size: 4.3vw;
+    font-size: 8vw;
     margin-bottom: 2vw;
 }
 
 .about .text p {
-    font-size: 1.3vw;
+    font-size: 5vw;
     line-height: 150%;
     margin-bottom: 3vw;
 }
