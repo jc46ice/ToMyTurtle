@@ -1,33 +1,26 @@
-function getQueryParam(name) {
-  const urlParams = new URLSearchParams(window.location.search);
-  return urlParams.get(name);
+let getshowmenu = document.getElementsByClassName('showmenu')[0];
+let gethidemenu = document.getElementsByClassName('hidemenu')[0];
+let getnav = document.getElementsByTagName('nav')[0];
+getshowmenu.addEventListener('click', function () {
+    getnav.classList.add('active');
+    getnav.style.opacity = '1';
+    gethidemenu.style.opacity = '1';
+    gethidemenu.style.visibility = 'visible';
+});
+gethidemenu.addEventListener('click', function () {
+    getnav.classList.remove('active');
+    getnav.style.opacity = '0';
+    gethidemenu.style.opacity = '0';
+    gethidemenu.style.visibility = 'hidden';
+});
+
+function scollevent() {
+    var getheaderelement = document.getElementsByTagName('header')[0].classList;
+    if (document.documentElement.scrollTop > 100) {
+        getheaderelement.add('fixed');
+    } else {
+        getheaderelement.remove('fixed');
+    }
 }
-
-function createHeart() {
-  const heart = document.createElement("div");
-  heart.classList.add("heart");
-  heart.style.left = Math.random() * 100 + "vw";
-
-  document.body.appendChild(heart);
-
-  setTimeout(() => {
-    heart.remove();
-  }, 5000);
-}
-
-function sendLove() {
-  let name = "Tanisha";
-  // let name = getQueryParam("name");
-  let message = document.getElementById("message");
-  message.innerHTML = "You're loved,"+name+"!";
-  setTimeout(() => {
-    message.style.opacity = 1;
-  }, 100);
-
-  for (let i = 0; i < 50; i++) {
-    setTimeout(createHeart, i * 100);
-  }
-}
-
-sendLove();
-
+window.onscroll = scollevent;
+document.getElementById('footeryear').textContent = new Date().getFullYear();
