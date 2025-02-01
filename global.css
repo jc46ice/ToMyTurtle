@@ -36,6 +36,10 @@ a {
     justify-content: space-between;
 }
 
+.noPadding {
+    padding: 0;
+}
+
 .bfr:before {
     position: absolute;
     width: 100%;
