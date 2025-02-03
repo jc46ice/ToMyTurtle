@@ -43,6 +43,16 @@
 
 /* for large */
 @media (min-width: 1024px) {
+    body {
+        background: #ffccd5;
+        font-family: "Comic Sans MS", sans-serif;
+        color: var(--main-color);
+        text-align: center;
+        padding: 20px;
+        overflow: hidden;
+        /* overflow: hidden; hides the scroll bar */
+    }
+
     .container {
         max-width: 1024px;
     }
@@ -61,6 +71,16 @@
 
 /* for extra-large */
 @media (min-width: 1280px) {
+    body {
+        background: #ffccd5;
+        font-family: "Comic Sans MS", sans-serif;
+        color: var(--main-color);
+        text-align: center;
+        padding: 20px;
+        overflow: hidden;
+        /* overflow: hidden; hides the scroll bar */
+    }
+
     .container {
         max-width: 1024px;
     }
@@ -79,6 +99,16 @@
 
 /* for double-extra-large */
 @media (min-width: 1536px) {
+    body {
+        background: #ffccd5;
+        font-family: "Comic Sans MS", sans-serif;
+        color: var(--main-color);
+        text-align: center;
+        padding: 20px;
+        overflow: hidden;
+        /* overflow: hidden; hides the scroll bar */
+    }
+
     .container {
         max-width: 1024px;
     }

@@ -10,7 +10,7 @@
 }
 
 /* HTML: <div class="loader"></div> */
-.loader {
+#loader {
     width: 40px;
     height: 20px;
     background: orange;
@@ -18,8 +18,8 @@
     animation: l9-0 1.5s infinite linear;
 }
 
-.loader:before,
-.loader:after {
+#loader:before,
+#loader:after {
     content: "";
     position: absolute;
     background: inherit;
@@ -30,13 +30,13 @@
     animation-name: l9-1;
 }
 
-.loader:before {
+#loader:before {
     left: 0;
     transform-origin: bottom left;
     --s: -1;
 }
 
-.loader:after {
+#loader:after {
     right: 0;
     transform-origin: bottom right;
 }

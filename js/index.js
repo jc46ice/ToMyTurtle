@@ -25,14 +25,21 @@ function scollevent() {
 window.onscroll = scollevent;
 document.getElementById('footeryear').textContent = new Date().getFullYear();
 
-function loaderActivation() {
-    if (document.readyState !== "complete") {
-        document.getElementById("home").style.visibility = "hidden";
-        document.getElementById("loader").style.visibility = "visible";
-    } else {
-        document.getElementById("loader").style.visibility = "hidden";
-        document.getElementById("body").style.visibility = "visible";
-    }
-}
+// for preloader activation
 
-document.onreadystatechange = loaderActivation();
+
+//to do:
+
+
+// var preloader = document.getElementById("preloader");
+// var loader = document.getElementById("loader");
+
+// window.onload = function () { loaderDeactive() };
+
+// function loaderDeactive() {
+//     preloader.style.display = "none";
+//     loader.style.display = "none";
+//     window.alert("All item loaded");
+// }
+
+// loaderDeactive();

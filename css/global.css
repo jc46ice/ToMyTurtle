@@ -7,13 +7,15 @@
 }
 
 /* below line will be default unless page is ready */
-body {
-    /* visibility: hidden; */
-}
 
-#loader {
-    visibility: visible;
-    z-index: 1;
+#preloader {
+    z-index: 100;
+    background: #fff;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50vh;
+    padding-left: 46vw;
 }
 
 /* below header.fixed works with the index.js file */
@@ -45,19 +47,6 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-
-.dispCenDiv {
-    position: fixed;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    /* max-width: fit-content; */
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .justCon-spaceBet {
