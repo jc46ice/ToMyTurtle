@@ -8,11 +8,12 @@
 
 /* below line will be default unless page is ready */
 body {
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
-.loader {
+#loader {
     visibility: visible;
+    z-index: 1;
 }
 
 /* below header.fixed works with the index.js file */
