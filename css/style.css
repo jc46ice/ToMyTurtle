@@ -110,7 +110,7 @@ nav ul li a:hover {
 
 .hero {
     height: 100vh;
-    background: url(/images/pic1.jpg) no-repeat center;
+    background: url(ToMyValentine/images/pic1.jpg) no-repeat center;
     background-size: cover !important;
     padding-top: 60vw;
     padding-bottom: 14vw;
