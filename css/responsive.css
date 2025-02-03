@@ -101,7 +101,7 @@
 
     .hero {
         height: 100vh;
-        background: url(images/pic1.jpg) no-repeat center;
+        background: url(../images/pic1.jpg) no-repeat center;
         background-size: cover !important;
         padding-top: 20vw;
         padding-bottom: 14vw;
@@ -247,7 +247,7 @@
 
     .hero {
         height: 100vh;
-        background: url(images/pic1.jpg) no-repeat center;
+        background: url(../images/pic1.jpg) no-repeat center;
         background-size: cover !important;
         padding-top: 24vw;
         padding-bottom: 14vw;
@@ -389,7 +389,7 @@
 
     .hero {
         height: 100vh;
-        background: url(images/pic1.jpg) no-repeat center;
+        background: url(../images/pic1.jpg) no-repeat center;
         background-size: cover !important;
         padding-top: 20vw;
         padding-bottom: 14vw;

@@ -6,6 +6,11 @@
     font-family: 'Manrope';
 }
 
+/* below header.fixed works with the index.js file */
+header.fixed {
+    background: lightcoral;
+}
+
 ul {
     list-style: none;
 }
