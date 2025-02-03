@@ -1,0 +1,92 @@
+.options {
+    padding-left: 3vw;
+    padding-top: 3vh;
+    font-family: 'Manrope', sans-serif;
+}
+
+.options h2 {
+    text-align: center;
+    color: #000;
+    font-size: 3vw;
+    margin-bottom: 1.5vw;
+}
+
+.options h4 {
+    text-align: center;
+    color: #000;
+    font-size: 1vw;
+    margin-bottom: 4vw;
+    font-weight: 500;
+    padding: 0 15%;
+    line-height: 140%;
+}
+
+.itemswrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -30px;
+}
+
+.itemswrap .item {
+    flex-basis: 25%;
+    margin-bottom: 5vw;
+    padding: 0 30px;
+}
+
+.itemswrap .item .itemcontent {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.itemswrap .item .itemcontent .thumb {
+    float: left;
+    width: 100%;
+    margin-bottom: 1.5vw;
+    overflow: hidden;
+}
+
+.itemswrap .item .itemcontent .thumb a {
+    cursor: zoom-in;
+}
+
+.itemswrap .item .itemcontent .thumb img {
+    float: left;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+}
+
+.itemswrap .item .itemcontent .thumb:hover img {
+    transform: scale(1.1);
+}
+
+.itemswrap .item .itemcontent h3 {
+    color: #000;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+}
+
+.itemswrap .item .itemcontent h3 a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.itemswrap .item .itemcontent h3 a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.itemswrap .item .itemcontent p {
+    color: #555;
+    font-size: 1vw;
+    line-height: 150%;
+}

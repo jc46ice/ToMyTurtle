@@ -315,11 +315,13 @@ footer .social a {
     margin-left: 1vw;
 }
 
-/* for letter html */
+/* for letter and gallery html */
 .section {
     height: 100vh;
-    background: url(../images/pic3.jpg) no-repeat center;
-    background-size: cover !important;
+    width: 100vw;
+    /* background: url(../images/pic3.jpg) no-repeat center; */
+    /* background-size: cover !important; */
+    background: #aaa;
     position: relative;
     z-index: 1;
     padding-top: 20vh;
