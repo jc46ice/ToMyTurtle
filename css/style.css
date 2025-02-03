@@ -317,11 +317,11 @@ footer .social a {
 
 /* for letter and gallery html */
 .section {
-    height: 100vh;
+    max-height: fit-content;
     width: 100vw;
     /* background: url(../images/pic3.jpg) no-repeat center; */
     /* background-size: cover !important; */
-    background: #aaa;
+    background: pink;
     position: relative;
     z-index: 1;
     padding-top: 20vh;
@@ -340,7 +340,7 @@ footer .social a {
     /* Black w/opacity/see-through */
     border: 3px solid #f1f1f1;
     border-radius: 3px;
-    height: 80%;
+    max-height: fit-content;
     max-width: fit-content;
     margin-left: 3vw;
     margin-right: 3vw;
@@ -351,4 +351,5 @@ footer .social a {
 
 .paper .text {
     color: #000;
+    padding-bottom: 1rem;
 }
