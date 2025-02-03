@@ -6,6 +6,58 @@
     font-family: 'Manrope';
 }
 
+/* my extra fonts */
+/* link the following to the html file
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+*/
+.caveat-4 {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.caveat-3 {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.caveat-2 {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.caveat-1 {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* link the following to the html file
+
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+*/
+.parisienne-regular {
+    font-family: "Parisienne", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#letterHome {
+    font-family: "";
+}
+
 /* below line will be default unless page is ready */
 
 #preloader {
