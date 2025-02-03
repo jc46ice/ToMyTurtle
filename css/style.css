@@ -277,18 +277,17 @@ nav ul li a:hover {
 
 
 footer {
-    position: absolute;
     bottom: 0;
     background: #fff;
     padding: 5vw 0;
     padding-bottom: 2vw;
     font-family: 'Manrope', sans-serif;
+    font-size: 1.2vw;
 }
 
 footer .copyright {
     float: left;
     color: #000;
-    font-size: 1vw;
 }
 
 footer .copyright a {
@@ -307,7 +306,6 @@ footer .copyright span.company a {
 footer .social {
     float: right;
     color: #000;
-    font-size: 1vw;
 }
 
 footer .social a {
