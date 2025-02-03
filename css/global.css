@@ -6,6 +6,15 @@
     font-family: 'Manrope';
 }
 
+/* below line will be default unless page is ready */
+body {
+    visibility: hidden;
+}
+
+.loader {
+    visibility: visible;
+}
+
 /* below header.fixed works with the index.js file */
 header.fixed {
     background: lightcoral;
@@ -35,6 +44,19 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.dispCenDiv {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* max-width: fit-content; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .justCon-spaceBet {

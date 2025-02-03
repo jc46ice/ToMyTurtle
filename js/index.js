@@ -24,3 +24,15 @@ function scollevent() {
 }
 window.onscroll = scollevent;
 document.getElementById('footeryear').textContent = new Date().getFullYear();
+
+function loaderActivation() {
+    if (document.readyState !== "complete") {
+        document.getElementById("home").style.visibility = "hidden";
+        document.getElementById("loader").style.visibility = "visible";
+    } else {
+        document.getElementById("loader").style.visibility = "hidden";
+        document.getElementById("body").style.visibility = "visible";
+    }
+}
+
+document.onreadystatechange = loaderActivation();
