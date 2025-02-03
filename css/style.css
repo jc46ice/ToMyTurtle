@@ -110,7 +110,7 @@ nav ul li a:hover {
 
 .hero {
     height: 100vh;
-    background: url(images/pic1.jpg) no-repeat center;
+    background: url(/images/pic1.jpg) no-repeat center;
     background-size: cover !important;
     padding-top: 60vw;
     padding-bottom: 14vw;
@@ -160,6 +160,7 @@ nav ul li a:hover {
     margin-right: 1rem;
     margin-bottom: 1rem;
     border: none;
+    box-shadow: 0px 7px 46px 0px rgba(0, 0, 0, 0.3);
 }
 
 .hero .btn:hover {
@@ -182,6 +183,8 @@ nav ul li a:hover {
 }
 
 .btn {
+    width: auto;
+    height: 10%;
     margin-right: 1rem;
     margin-bottom: 1rem;
     float: left;
@@ -226,8 +229,13 @@ nav ul li a:hover {
     margin-bottom: 2vw;
 }
 
-.about .text p {
+.about .text h3 {
+    color: #000;
     font-size: 5vw;
+}
+
+.about .text p {
+    font-size: 3.5vw;
     line-height: 150%;
     margin-bottom: 3vw;
 }
