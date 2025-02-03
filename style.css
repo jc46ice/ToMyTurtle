@@ -12,7 +12,7 @@ header {
 }
 
 header.fixed {
-    background: dodgerblue;
+    background: lightcoral;
     padding: 2vw 0;
 }
 
@@ -29,7 +29,7 @@ header.fixed a.myTitle {
 }
 
 header.fixed span {
-    color: yellow;
+    color: white;
 }
 
 header span {
@@ -124,7 +124,7 @@ nav ul li a:hover {
 
 .hero .text {
     float: left;
-    width: 80%;
+    width: 90%;
 }
 
 .hero .text h1 {
@@ -156,6 +156,16 @@ nav ul li a:hover {
     font-size: 5vw;
 }
 
+.hero .btn {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.hero .btn:hover {
+    font-weight: normal;
+}
+
 .hero .text a span {
     margin-left: 0.7vw;
 }
@@ -174,6 +184,25 @@ nav ul li a:hover {
 .btn {
     margin-right: 1rem;
     margin-bottom: 1rem;
+    float: left;
+    padding: 1.3vw 3vw;
+    background: pink;
+    border: #ff304f 1px outset;
+    border-radius: 3px;
+    box-shadow: 0px 7px 46px 0px rgba(255, 1, 86, 0.303);
+    color: #ff304f;
+    font-size: 5vw;
+}
+
+.btn span {
+    margin-left: 0.7vw;
+}
+
+.btn:hover {
+    background: #ff304f;
+    color: pink;
+    font-weight: bold;
+    box-shadow: 0px 7px 46px 0px rgba(255, 1, 86, 0.603);
 }
 
 
@@ -182,7 +211,7 @@ nav ul li a:hover {
     height: 100vh;
     padding: 30vw 0;
     font-family: 'Manrope', sans-serif;
-    background: #ddd;
+    background: pink;
 }
 
 .about .text {
@@ -204,7 +233,9 @@ nav ul li a:hover {
 }
 
 .about .thumb {
-    flex-basis: 33.33%;
+    /* flex-basis: 33.33%; */
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-bottom: 1.5vw;
     padding: 0 30px;
     position: relative;
