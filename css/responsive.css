@@ -270,6 +270,14 @@
         color: #000;
         margin-left: 1vw;
     }
+
+    .caveat-4 {
+        font-family: "Caveat", serif;
+        /* font-optical-sizing: auto; */
+        font-size: 1.8vw;
+        font-weight: 400;
+        font-style: normal;
+    }
 }
 
 /* for extra-large */
@@ -484,6 +492,14 @@
         color: #000;
         margin-left: 1vw;
     }
+
+    .caveat-4 {
+        font-family: "Caveat", serif;
+        /* font-optical-sizing: auto; */
+        font-size: 1.8vw;
+        font-weight: 400;
+        font-style: normal;
+    }
 }
 
 /* for double-extra-large */
@@ -574,6 +590,7 @@
 
     .about {
         padding: 8vw 0;
+        /* padding-top: 20%; */
         font-family: 'Manrope', sans-serif;
         background: #ddd;
     }
@@ -710,11 +727,20 @@
         border: 3px solid #f1f1f1;
         border-radius: 3px;
         height: 80%;
+        width: 80%;
         max-width: fit-content;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 2vw;
         padding-left: 3vw;
         padding-right: 3vw;
+    }
+
+    .caveat-4 {
+        font-family: "Caveat", serif;
+        /* font-optical-sizing: auto; */
+        font-size: 2vw;
+        font-weight: 400;
+        font-style: normal;
     }
 }
