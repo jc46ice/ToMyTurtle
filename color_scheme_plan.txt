@@ -1,0 +1,21 @@
+Background
+🎨 Misty Blue (#D9E7F3) – A soft and airy backdrop to set a dreamy tone.
+
+Header & Navigation
+💖 Blush Pink (#FADADD) – A warm, welcoming color to make the header stand out.
+🌿 Sage Green (#D4E2D4) (for hover effects or active menu items) – Adds a fresh, natural touch.
+
+Buttons & Call-to-Action (CTA)
+🍦 Creamy Peach (#FFE5D9) – A warm, inviting color for buttons.
+💜 Lavender (#E6DFF1) (for hover effects) – Adds a subtle, elegant contrast.
+
+Text & Typography
+🖋 Deep Charcoal (#5A5A5A) – A neutral, readable text color.
+💜 Lavender (#E6DFF1) (for subheadings or accents) – Adds softness without overpowering.
+
+Cards & Sections
+🌿 Sage Green (#D4E2D4) – Perfect for highlighting sections like testimonials or featured content.
+🍦 Creamy Peach (#FFE5D9) – Can be used as an alternating background for sections to add variety.
+
+Footer
+💜 Lavender (#E6DFF1) – A gentle, calming base to close the page beautifully. 

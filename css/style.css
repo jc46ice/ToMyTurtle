@@ -28,6 +28,7 @@ header.fixed a.myTitle {
     font-size: 6vw;
 }
 
+
 header.fixed span {
     color: white;
 }
@@ -41,8 +42,13 @@ header .hidemenu span {
     color: dodgerblue;
 }
 
+header .container {
+    margin-left: 85%;
+}
+
 .menucontrols {
     float: right;
+    margin-right: auto;
 }
 
 .menucontrols a {
@@ -106,14 +112,21 @@ nav ul li a:hover {
 }
 
 
-
+.main {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    margin: 3.2rem 0 0;
+}
 
 .hero {
     height: 100vh;
-    background: url(../images/pic1.jpg) no-repeat center;
+    background: pink;
     background-size: cover !important;
-    padding-top: 60vw;
+    padding-top: 55vw;
     padding-bottom: 14vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
     position: relative;
     z-index: 1;
 }
@@ -124,11 +137,11 @@ nav ul li a:hover {
 
 .hero .text {
     float: left;
-    width: 90%;
+    width: 100%;
 }
 
 .hero .text h1 {
-    color: #fff;
+    color: #2b2b2b;
     font-size: 20vw;
     line-height: 100%;
     margin-bottom: 3vw;
@@ -147,34 +160,6 @@ nav ul li a:hover {
     color: #000;
 }
 
-.hero .text a {
-    float: left;
-    padding: 1.3vw 3vw;
-    background: yellow;
-    border-radius: 3px;
-    color: #000;
-    font-size: 5vw;
-}
-
-.hero .btn {
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    border: none;
-    box-shadow: 0px 7px 46px 0px rgba(0, 0, 0, 0.3);
-}
-
-.hero .btn:hover {
-    font-weight: normal;
-}
-
-.hero .text a span {
-    margin-left: 0.7vw;
-}
-
-.hero .text a:hover {
-    background: #fff;
-    color: #000;
-}
 
 .hero img {
     float: left;
@@ -204,16 +189,46 @@ nav ul li a:hover {
 
 .btn:hover {
     background: pink;
+    border: pink 1px outset;
     color: #ff304f;
     font-weight: bold;
     box-shadow: 0px 7px 46px 0px rgba(255, 1, 86, 0.603);
 }
 
+.btn2 {
+    width: auto;
+    height: 10%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    float: left;
+    padding: 1.3vw 3vw;
+    background: yellow;
+    border: yellow 1px outset;
+    border-radius: 3px;
+    box-shadow: 0px 7px 46px 0px rgba(255, 251, 1, 0.303);
+    color: #2b2b2b;
+    font-size: 5vw;
+    cursor: pointer;
+}
+
+.btn2 span {
+    margin-left: 0.7vw;
+}
+
+.btn2:hover {
+    background: #d8bee5;
+    border: #d8bee5 1px outset;
+    color: #2b2b2b;
+    font-weight: bold;
+    box-shadow: 0px 7px 46px 0px rgba(56, 56, 56, 0.603);
+}
 
 
 .about {
     height: 100vh;
     padding: 30vw 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-family: 'Manrope', sans-serif;
     background: pink;
 }
