@@ -16,6 +16,14 @@ header {
     /* border-radius: 2rem; */
 }
 
+#home header {
+    background: lightcoral;
+}
+
+#home header span {
+    color: #fff;
+}
+
 header.fixed {
     background: lightcoral;
 }
@@ -40,15 +48,6 @@ header .container {
 .menucontrols {
     float: right;
     margin-right: auto;
-}
-
-.menucontrols a {
-    float: left;
-    width: 4vw;
-    height: 4vw;
-    background: yellow;
-    color: #000;
-    font-size: 1.4vw;
 }
 
 a.hidemenu {
@@ -116,73 +115,66 @@ nav ul li a:hover {
 
 .hero {
     height: 100vh;
-    background-image: linear-gradient(180deg, #D9E7F3, #9d65f7);
+    z-index: 1;
+    background: url(../images/plains.svg) no-repeat center;
     background-size: cover !important;
-    padding-top: 55vw;
-    padding-bottom: 14vw;
-    padding-left: 1rem;
-    padding-right: 1rem;
     position: relative;
     z-index: 1;
+}
+
+.hero .row {
+    height: 60%;
+}
+
+.hero .myCol {
+    text-align: left;
+    padding-top: 40vh;
+    padding-bottom: 30vh;
+    padding-left: 10vw;
 }
 
 .hero:before {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4));
 }
 
-.hero .text {
-    float: left;
-    width: 100%;
-}
-
-.hero .text h1 {
+.hero .myCol h1 {
     color: #2b2b2b;
     font-size: 20vw;
     line-height: 100%;
     margin-bottom: 3vw;
 }
 
-.hero .text h3 {
-    color: #fff;
+.hero .myCol h3 {
+    color: #2b2b2b;
     font-size: 10vw;
     line-height: 120%;
     margin-bottom: 2vw;
     font-weight: bold;
 }
 
-.hero .text h1 span,
-.banner .text h3 span {
-    color: #000;
-}
-
-
-.hero img {
-    float: left;
-    width: 100%;
+.myBtn {
+    font-size: 1rem;
+    font-weight: bold;
+    min-width: 10rem;
     height: auto;
-}
-
-.btn {
-    width: auto;
-    height: 10%;
     margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.21rem;
+    padding-bottom: 0.21rem;
     float: left;
-    padding: 1.3vw 3vw;
     background: #ff304f;
     border: #ff304f 1px outset;
     border-radius: 3px;
     box-shadow: 0px 7px 46px 0px rgba(255, 1, 86, 0.303);
     color: pink;
-    font-size: 5vw;
     cursor: pointer;
 }
 
-.btn span {
+.myBtn span {
     margin-left: 0.7vw;
 }
 
-.btn:hover {
+.myBtn:hover {
     background: pink;
     border: pink 1px outset;
     color: #ff304f;
@@ -190,88 +182,53 @@ nav ul li a:hover {
     box-shadow: 0px 7px 46px 0px rgba(255, 1, 86, 0.603);
 }
 
-.btn2 {
-    width: auto;
-    height: 10%;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    float: left;
-    padding: 1.3vw 3vw;
-    background: yellow;
-    border: yellow 1px outset;
-    border-radius: 3px;
-    box-shadow: 0px 7px 46px 0px rgba(255, 251, 1, 0.303);
-    color: #2b2b2b;
-    font-size: 5vw;
-    cursor: pointer;
-}
-
-.btn2 span {
-    margin-left: 0.7vw;
-}
-
-.btn2:hover {
-    background: #d8bee5;
-    border: #d8bee5 1px outset;
-    color: #2b2b2b;
-    font-weight: bold;
-    box-shadow: 0px 7px 46px 0px rgba(56, 56, 56, 0.603);
-}
-
-
-.about {
+.more {
     height: 100vh;
-    padding: 30vw 0;
+    padding-top: 16vh;
     padding-left: 1rem;
     padding-right: 1rem;
-    font-family: 'Manrope', sans-serif;
-    background: pink;
 }
 
-.about .text {
-    float: left;
-    width: 100%;
+.more .row {
+    padding-top: 5rem;
+}
+
+.more .text {
     text-align: center;
 }
 
-.about .text h2 {
+.more .text h2 {
     color: #000;
     font-size: 8vw;
     margin-bottom: 2vw;
 }
 
-.about .text h3 {
+.more .text h3 {
     color: #000;
     font-size: 5vw;
 }
 
-.about .text p {
+.more .text p {
     font-size: 4.5vw;
     line-height: 150%;
     margin-bottom: 3vw;
 }
 
-.about .thumb {
-    /* flex-basis: 33.33%; */
+.more .thumb {
     margin-left: 5vw;
     margin-right: 5vw;
     margin-bottom: 1.5vw;
     padding: 0 30px;
     position: relative;
-    float: left;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     padding: 0;
     overflow: hidden;
 }
 
-.about .thumb a {
-    cursor: zoom-in;
-}
 
-.about .thumb img {
-    float: left;
-    width: 100%;
+.more img {
+    width: 90%;
     height: auto;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -280,8 +237,17 @@ nav ul li a:hover {
     -webkit-transition: 0.6s;
 }
 
-.about .thumb:hover img {
+.more .thumb:hover img {
     transform: scale(1.1);
+}
+
+.more .myBtn {
+    float: none;
+}
+
+math {
+    font-size: 4.5vw;
+    padding-bottom: 2rem;
 }
 
 
