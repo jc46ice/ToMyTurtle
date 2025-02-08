@@ -6,6 +6,15 @@
     font-family: 'Manrope';
 }
 
+.my-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
 .caveat-4 {
     font-family: "Caveat", serif;
     font-optical-sizing: auto;
