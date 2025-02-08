@@ -6,6 +6,10 @@
     font-family: 'Manrope';
 }
 
+body {
+    width: 100vw;
+}
+
 .my-container {
     width: 90%;
     margin-left: auto;

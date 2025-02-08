@@ -1,0 +1,76 @@
+@media (min-width: 1920px) {
+    header.barBox {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    header .menuControl span {
+        font-size: 2vw;
+    }
+
+    .myCounterCard .text h1 {
+        font-size: 4.6rem;
+    }
+
+    .myCounterCard .text h3 {
+        font-size: 2rem;
+    }
+
+    nav.active {
+        width: 30vw;
+    }
+
+    nav ul.navList li {
+        font-size: 2vw;
+    }
+
+    footer.floatLeft {
+        font-size: 1.2vw;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    header.barBox {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    header .menuControl span {
+        font-size: 2vw;
+    }
+
+    .myCounterCard .text h1 {
+        font-size: 4.6rem;
+    }
+
+    .myCounterCard .text h3 {
+        font-size: 2rem;
+    }
+
+    nav.active {
+        width: 30vw;
+    }
+
+    nav ul.navList li {
+        font-size: 2vw;
+    }
+
+    footer.floatLeft {
+        font-size: 1.2vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    header .menuControl span {
+        font-size: 3vw;
+    }
+
+    nav.active {
+        width: 30vw;
+    }
+
+    nav ul.navList li {
+        font-size: 2vw;
+    }
+}

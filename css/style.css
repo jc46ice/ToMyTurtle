@@ -1,44 +1,32 @@
 header {
     position: fixed;
-    width: 90%;
-    left: 5%;
+    width: 3rem;
+    height: 3rem;
+    left: 80%;
     padding-left: auto;
     padding-right: auto;
-    top: 1vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    top: 2vh;
     z-index: 99;
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
-    padding: 2vw 0;
     transition: 0.3s;
     -webkit-transition: 0.3s;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
 }
 
 header.fixed {
     background: lightcoral;
-    padding: 2vw 0;
-}
-
-header a.myTitle {
-    float: left;
-    color: #fff;
-    font-size: 6vw;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-}
-
-header.fixed a.myTitle {
-    font-size: 6vw;
-}
-
-
-header.fixed span {
-    color: white;
 }
 
 header span {
     font-size: 6vw;
     color: #ff304f;
+}
+
+header.fixed span {
+    color: white;
 }
 
 header .hidemenu span {
@@ -65,12 +53,11 @@ header .container {
 
 a.hidemenu {
     position: fixed;
-    right: 1vw;
     top: 1vw;
-    width: 2vw;
-    height: 2vw;
+    left: 94%;
+    width: 3vw;
+    height: 3vw;
     color: #000;
-    font-size: 2.2vw;
     transition: 1.6s;
     -webkit-transition: 1.6s;
     opacity: 0;
@@ -79,13 +66,14 @@ a.hidemenu {
 
 nav {
     position: fixed;
-    right: -30vw;
+    right: -40vw;
     top: 0;
     background: #fff;
     z-index: 99;
-    width: 35vw;
+    width: 40vw;
     height: 100%;
-    padding: 5vw 5vw 5vw 5vw;
+    padding-left: 2rem;
+    padding-top: 4rem;
     overflow-y: auto;
     transition: 0.6s;
     -webkit-transition: 0.6s;
@@ -95,6 +83,10 @@ nav {
 
 nav.active {
     right: 0;
+}
+
+nav ul.navList {
+    padding: 0;
 }
 
 nav ul li {
@@ -312,14 +304,6 @@ footer .copyright {
 footer .copyright a {
     color: #000;
     border-bottom: 1px solid #000;
-}
-
-footer .copyright span.company {
-    font-size: 1vw;
-}
-
-footer .copyright span.company a {
-    border-bottom: none;
 }
 
 footer .social {
