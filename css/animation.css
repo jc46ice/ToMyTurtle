@@ -73,3 +73,59 @@
         transform: rotate(calc(var(--s, 1)*180deg))
     }
 }
+
+
+
+/* hearts animation */
+:root {
+    --main-color: #ff5678;
+    --secondary-color: #ff304f;
+    --heart-size: 20px;
+}
+
+#message {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.heart {
+    position: absolute;
+    width: var(--heart-size);
+    height: var(--heart-size);
+    background: red;
+    transform: rotate(45deg);
+    animation: fall 2.5s linear infinite;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    width: var(--heart-size);
+    height: var(--heart-size);
+    background: red;
+    border-radius: 50%;
+}
+
+.heart::before {
+    top: -10px;
+    left: 0;
+}
+
+.heart::after {
+    top: 0;
+    left: -10px;
+}
+
+@keyframes fall {
+    0% {
+        top: -50px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 100vh;
+        opacity: 0;
+        transform: rotate(90deg);
+    }
+}

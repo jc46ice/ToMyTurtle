@@ -1,0 +1,57 @@
+.myCounterCard {
+    background-image: linear-gradient(180deg, #D9E7F3, #9d65f7);
+    height: 100vh;
+}
+
+.myMainRow {
+    height: 40%;
+}
+
+.text {
+    padding-top: 25vh;
+}
+
+.text h1 {
+    color: #6d36c5;
+    font-family: "Shadows";
+    font-size: 2.6rem;
+}
+
+.text h3 {
+    color: #282828;
+    font-size: small;
+}
+
+.countup {
+    text-align: center;
+    /* margin: 120px; */
+}
+
+.countup .timeel {
+    display: inline-block;
+    padding: 10px;
+    background: #9d65f7;
+    margin: 0;
+    color: white;
+    min-width: 2.6rem;
+    margin-left: 13px;
+    border-radius: 10px 0 0 10px;
+}
+
+.countup span[class*="timeRef"] {
+    border-radius: 0 10px 10px 0;
+    margin-left: 0;
+    background: #FADADD;
+    color: black;
+}
+
+.countup .t .timeel {
+    border-radius: 0;
+    min-width: 2.8rem;
+    margin: 0;
+}
+
+.countup .tRef span {
+    border-radius: 0;
+    min-width: 2.8rem;
+}

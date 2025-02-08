@@ -1,14 +1,17 @@
 header {
     position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
+    width: 90%;
+    left: 5%;
+    padding-left: auto;
+    padding-right: auto;
+    top: 1vh;
     z-index: 99;
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
     padding: 2vw 0;
     transition: 0.3s;
     -webkit-transition: 0.3s;
+    border-radius: 2rem;
 }
 
 header.fixed {
@@ -35,7 +38,7 @@ header.fixed span {
 
 header span {
     font-size: 6vw;
-    color: #fff;
+    color: #ff304f;
 }
 
 header .hidemenu span {
@@ -121,7 +124,7 @@ nav ul li a:hover {
 
 .hero {
     height: 100vh;
-    background: pink;
+    background-image: linear-gradient(180deg, #D9E7F3, #9d65f7);
     background-size: cover !important;
     padding-top: 55vw;
     padding-bottom: 14vw;
