@@ -17,6 +17,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
+
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
     <!--CSS Stylesheets-->
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -52,65 +58,90 @@
     </header>
     <!--header section-->
 
-    <div class=" hero">
-        <div class="col-xs-12 col-sm-6">
-            <p>A little bit</p>
-            <h1>About Me</h1>
-            <p>I'm from the quiet east of Manipur. On a valley east of Kangpat lies a cozy village called Skipe,
-                I taught myself to
-                design and build websites. These days I live in Guwahati City and study with the very
-                talented people at <a href="https://www.dbuniversity.ac.in/">ADBU</a>.</p>
+    <div class="hero about">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-sm-4 col-md-4 col-lg-4 me">
+                <div class="card" style="width: 18rem;">
+                    <p style="text-align: center;">A little bit</p>
+                    <img src="../images/me.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">About me</h5>
+                        <p class="card-text">I'm from the quiet east of Manipur. On a valley east of Kangpat lies a cozy
+                            village called Skipe.
+                            These days I live in Guwahati City and study with the very
+                            talented people at <a href="https://www.dbuniversity.ac.in/">ADBU</a>.</p>
+                        <p class="card-text">Personally, I love running, exploring the backroads and singing, I am
+                            obsessed
+                            with my fountain
+                            pen 🖋️ and I enjoy writing with it. I am most
+                            happy while cycling and exploring the countryside 🚲️.</p>
 
-            <p>I am pursuing undergraduate course on Computer Applications. I previously studied Hotel
-                management and hospitality. Designing & building websites became my passion after studying here
-                so I
-                kept at it 👨‍💻.</P>
+                    </div>
+                </div>
+            </div>
 
-            <p>Personally, I love running, exploring the backroads and singing, I am obsessed with my fountain
-                pen 🖋️ and I enjoy writing with it. I am most
-                happy while cycling and exploring the countryside 🚲️.</p>
+            <div class="col-sm-4 col-md-4 col-lg-4 hobby">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        <h2>🎧 Listening</h2>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://youtu.be/IGInsosP0Ac?si=ZATBa9-fMkANOPI-"
+                                target="_blank" rel="noopener">One Ok
+                                Rock - Stand Out Fit In</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/_1NU-YkY3dk?si=N8N2XzYsNe5Ptqb0"
+                                target="_blank" rel="noopener">One Ok
+                                Rock - Taking Off</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/rBrd_3VMC3c?si=uLSkp7VKTXhD_eZz"
+                                target="_blank" rel="noopener">Louis
+                                Armstrong - What A Wonderful World</a></li>
+                    </ul>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        <h2>📘 Reading</h2>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://amzn.in/d/9DycrT2" target="_blank"
+                                rel="noopener">Hard-Boiled Wonderland
+                                And The End Of The World - Haruki Murakami</a></li>
+                        <li class="list-group-item"><a href="https://amzn.in/d/fcJgY20" target="_blank"
+                                rel="noopener">Men
+                                Without Women -
+                                Haruki Murakami</a></li>
+                        <li class="list-group-item"><a href="https://amzn.in/d/iH0gVHP" target="_blank"
+                                rel="noopener">The
+                                Prince - Nicolo
+                                Machiavelli</a></li>
+                        <li class="list-group-item"><a href="https://gutenberg.net.au/ebooks05/0500601h.html"
+                                target="_blank" rel="noopener">The
+                                Madman - Kahlil Gibran</a></li>
+                    </ul>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        <h2>🕺 Dancing</h2>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://youtu.be/k85mRPqvMbE?si=7cgDuG4j-ot3tlaP"
+                                target="_blank" rel="noopener">Axel F
+                                - Crazy Frog</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/s4sLZOmrvEs?si=_ZRUjJ3mC7yUJvht"
+                                target="_blank" rel="noopener">Bee
+                                Gees - You should be dancing</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/mmjbF3A30eQ?si=EEQIRU8cLfdI4mcN"
+                                target="_blank" rel="noopener">I
+                                love the Mountains</a></li>
+                        <li class="list-group-item"> <a href="../heart/heart.html" role="button"
+                                class="btn myBtn btn-primary btn-sm">Continue <span
+                                    class="fa-solid fa-angle-right"></span></a></li>
+                    </ul>
+
+                </div>
+            </div>
 
         </div>
-
-
     </div>
-
-    <div class=" about">
-        <div class="col-xs-12 col-sm-4">
-            <h2>🎧 Listening</h2>
-            <ul>
-                <li><a href="https://youtu.be/IGInsosP0Ac?si=ZATBa9-fMkANOPI-" target="_blank" rel="noopener">One Ok
-                        Rock - Stand Out Fit In</a></li>
-                <li><a href="https://youtu.be/_1NU-YkY3dk?si=N8N2XzYsNe5Ptqb0" target="_blank" rel="noopener">One Ok
-                        Rock - Taking Off</a></li>
-                <li><a href="https://youtu.be/rBrd_3VMC3c?si=uLSkp7VKTXhD_eZz" target="_blank" rel="noopener">Louis
-                        Armstrong - What A Wonderful World</a></li>
-            </ul>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-            <h2>📘 Reading</h2>
-            <ul>
-                <li><a href="https://amzn.in/d/9DycrT2" target="_blank" rel="noopener">Hard-Boiled Wonderland
-                        And The End Of The World - Haruki Murakami</a></li>
-                <li><a href="https://amzn.in/d/fcJgY20" target="_blank" rel="noopener">Men Without Women -
-                        Haruki Murakami</a></li>
-                <li><a href="https://amzn.in/d/iH0gVHP" target="_blank" rel="noopener">The Prince - Nicolo
-                        Machiavelli</a></li>
-                <li><a href="https://gutenberg.net.au/ebooks05/0500601h.html" target="_blank" rel="noopener">The
-                        Madman - Kahlil Gibran</a></li>
-            </ul>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-            <h2>🕺 Dancing</h2>
-            <ul>
-                <li><a href="https://youtu.be/k85mRPqvMbE?si=7cgDuG4j-ot3tlaP" target="_blank" rel="noopener">Axel F
-                        - Crazy Frog</a></li>
-                <li><a href="https://youtu.be/s4sLZOmrvEs?si=_ZRUjJ3mC7yUJvht" target="_blank" rel="noopener">Bee
-                        Gees - You should be dancing</a></li>
-                <li><a href="https://youtu.be/mmjbF3A30eQ?si=EEQIRU8cLfdI4mcN" target="_blank" rel="noopener">I
-                        love the Mountains</a></li>
-            </ul>
-        </div>
     </div>
 
     <footer class="floatLeft">

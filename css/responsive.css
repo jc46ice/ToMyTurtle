@@ -228,6 +228,12 @@
         color: #2b2b2b;
     }
 
+    .hero.about {
+        height: 100vh;
+        padding-top: 4.5vh;
+        padding-left: 5rem;
+    }
+
     .myBtn {
         font-size: 1rem;
         min-width: 10rem;
