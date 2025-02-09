@@ -57,6 +57,10 @@
         padding: 0;
     }
 
+    .more .text {
+        padding-top: 20vh;
+    }
+
     .more .row {
         padding-top: 0;
     }
@@ -73,6 +77,7 @@
 
     .more .text h3 {
         font-size: 2.6rem;
+        padding-top: 3rem;
     }
 
     .more .text p {
@@ -169,6 +174,7 @@
 
     .more .text h3 {
         font-size: 2.6rem;
+        padding-top: 3rem;
     }
 
     .more .text p {
@@ -251,7 +257,8 @@
     }
 
     .more .text h3 {
-        font-size: 1.8rem;
+        font-size: 2.6rem;
+        padding-top: 3rem;
     }
 
     .more .text p {
