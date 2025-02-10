@@ -118,12 +118,13 @@ nav ul li a:hover {
     z-index: 1;
     background: url(../images/plains.svg) no-repeat center;
     background-size: cover !important;
-    position: relative;
+    /* position: relative; */
     z-index: 1;
 }
 
 .hero .row {
     height: 60%;
+    width: 120%;
 }
 
 .hero .myCol {
@@ -154,11 +155,23 @@ nav ul li a:hover {
 
 .hero.about {
     line-height: normal;
-    height: 150vh;
+    height: auto;
+    width: 100vw;
     padding-top: 7vh;
-    padding-left: 4rem;
+    padding-bottom: 3vh;
+    padding-left: 10%;
     overflow: hidden;
 }
+
+/* .hero.about.row {
+    width: 100%;
+} */
+
+/* .hero.about .me.card .hobby.card {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 .hero.about a {
     text-decoration: none;
@@ -195,7 +208,7 @@ nav ul li a:hover {
 }
 
 .more {
-    height: 100vh;
+    height: auto;
     /* padding-top: 5vh;
     padding-left: 1rem;
     padding-right: 1rem; */
@@ -207,7 +220,7 @@ nav ul li a:hover {
 }
 
 .more .row {
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .more .text {
@@ -223,11 +236,11 @@ nav ul li a:hover {
 
 .more .text h3 {
     color: #414141;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .more .text p {
-    font-size: 4.5vw;
+    font-size: 1rem;
     line-height: 150%;
     margin-bottom: 3vw;
 }
