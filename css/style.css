@@ -207,6 +207,13 @@ nav ul li a:hover {
     box-shadow: 0px 7px 46px 0px rgba(255, 1, 86, 0.603);
 }
 
+.myPackager {
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    height: auto;
+}
+
 .more {
     height: auto;
     /* padding-top: 5vh;
@@ -216,7 +223,22 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
     padding: 5vh;
-    background: #f2ff7e;
+}
+
+#more-1 {
+    background: linear-gradient(180deg, #aad04f, #f2ff7e);
+}
+
+#more-2 {
+    background: linear-gradient(180deg, #f2ff7e, #c4e8f5);
+}
+
+#more-3 {
+    background: linear-gradient(180deg, #c4e8f5, #f2ff7e);
+}
+
+#more-4 {
+    background: linear-gradient(180deg, #f2ff7e, #aad04f);
 }
 
 .more .row {
