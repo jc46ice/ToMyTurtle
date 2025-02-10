@@ -20,10 +20,6 @@ header {
     background: lightcoral;
 }
 
-#home header span {
-    color: #fff;
-}
-
 header.fixed {
     background: lightcoral;
 }
@@ -119,12 +115,10 @@ nav ul li a:hover {
     background: url(../images/plains.svg) no-repeat center;
     background-size: cover !important;
     /* position: relative; */
-    z-index: 1;
 }
 
 .hero .row {
     height: 60%;
-    width: 120%;
 }
 
 .hero .myCol {
@@ -159,7 +153,6 @@ nav ul li a:hover {
     width: 100vw;
     padding-top: 7vh;
     padding-bottom: 3vh;
-    padding-left: 10%;
     overflow: hidden;
 }
 
@@ -172,6 +165,23 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
 } */
+
+.wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobby {
+    width: 90vw;
+}
+
+.me {
+    width: 90vw;
+}
 
 .hero.about a {
     text-decoration: none;
